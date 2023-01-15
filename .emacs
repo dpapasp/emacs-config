@@ -12,8 +12,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-(electric-pair-mode 0)
-(set-face-attribute 'default nil :height 110)
+(electric-pair-mode 1)
+(set-face-attribute 'default nil :height 125)
 (global-display-line-numbers-mode 1)
 
 (require 'package)
@@ -30,3 +30,4 @@
 
 (global-set-key (kbd "<C-return>") 'end-of-line-and-indented-new-line)
 
+;; end-of-config
