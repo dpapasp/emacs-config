@@ -12,8 +12,8 @@
  ;; If there is more than one, they won't work right.
  )
 
-(electric-pair-mode 1)
-(set-face-attribute 'default nil :height 120)
+(electric-pair-mode 0)
+(set-face-attribute 'default nil :height 110)
 (global-display-line-numbers-mode 1)
 
 (require 'package)
